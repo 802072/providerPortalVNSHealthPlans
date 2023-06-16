@@ -5,6 +5,8 @@
     <classes>
       <class name="providerPortalVNSHealthPlans.verifyAllLinks">
         <methods>
+          <include name="verifyClaimsAndPayments"/>
+          <include name="close"/>
           <include name="login"/>
         </methods>
       </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
