@@ -1,25 +1,1173 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="16" total="17" passed="1" failed="0" skipped="0">
+<testng-results ignored="272" total="306" passed="34" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-16T16:44:00 EDT" name="Default suite" finished-at="2023-06-16T16:44:22 EDT" duration-ms="21518">
+  <suite started-at="2023-06-22T15:32:33 EDT" name="Regresstion Suite" finished-at="2023-06-22T15:44:16 EDT" duration-ms="703443">
     <groups>
     </groups>
-    <test started-at="2023-06-16T16:44:00 EDT" name="Default test" finished-at="2023-06-16T16:44:22 EDT" duration-ms="21518">
+    <test started-at="2023-06-22T15:32:33 EDT" name="1. Verify Rosters Link" finished-at="2023-06-22T15:33:21 EDT" duration-ms="47658">
       <class name="providerPortalVNSHealthPlans.verifyAllLinks">
-        <test-method is-config="true" signature="login()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@28f2a10f]" started-at="2023-06-16T16:44:00 EDT" name="login" finished-at="2023-06-16T16:44:16 EDT" duration-ms="16024" status="PASS">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@6e0f5f7f]" started-at="2023-06-22T15:32:33 EDT" name="setup" finished-at="2023-06-22T15:32:37 EDT" duration-ms="3892" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b06dc57]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="verifyClaimsAndPayments()[pri:4, instance:providerPortalVNSHealthPlans.verifyAllLinks@28f2a10f]" started-at="2023-06-16T16:44:16 EDT" name="verifyClaimsAndPayments" finished-at="2023-06-16T16:44:21 EDT" duration-ms="5229" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@6e0f5f7f]" started-at="2023-06-22T15:32:37 EDT" name="logIn" finished-at="2023-06-22T15:32:53 EDT" duration-ms="16444" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyClaimsAndPayments -->
-        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@28f2a10f]" started-at="2023-06-16T16:44:21 EDT" name="close" finished-at="2023-06-16T16:44:22 EDT" duration-ms="225" status="PASS">
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@6e0f5f7f]" started-at="2023-06-22T15:32:53 EDT" name="checkStatus" finished-at="2023-06-22T15:32:53 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@6e0f5f7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyRosters()[pri:1, instance:providerPortalVNSHealthPlans.verifyAllLinks@6e0f5f7f]" started-at="2023-06-22T15:32:53 EDT" name="verifyRosters" finished-at="2023-06-22T15:33:20 EDT" duration-ms="26970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRosters -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@6e0f5f7f]" started-at="2023-06-22T15:33:20 EDT" name="checkStatus" finished-at="2023-06-22T15:33:20 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyRosters() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyRosters status=SUCCESS method=verifyAllLinks.verifyRosters()[pri:1, instance:providerPortalVNSHealthPlans.verifyAllLinks@6e0f5f7f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@6e0f5f7f]" started-at="2023-06-22T15:33:20 EDT" name="close" finished-at="2023-06-22T15:33:21 EDT" duration-ms="312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@6e0f5f7f]" started-at="2023-06-22T15:33:21 EDT" name="teardown" finished-at="2023-06-22T15:33:21 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- 1. Verify Rosters Link -->
+    <test started-at="2023-06-22T15:33:21 EDT" name="2. Verify Eligibility Search Link" finished-at="2023-06-22T15:34:04 EDT" duration-ms="42971">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@783a467b]" started-at="2023-06-22T15:33:21 EDT" name="setup" finished-at="2023-06-22T15:33:24 EDT" duration-ms="3042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31940d6b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@783a467b]" started-at="2023-06-22T15:33:24 EDT" name="logIn" finished-at="2023-06-22T15:33:39 EDT" duration-ms="15053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@783a467b]" started-at="2023-06-22T15:33:39 EDT" name="checkStatus" finished-at="2023-06-22T15:33:39 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyEligibilitySearch()[pri:2, instance:providerPortalVNSHealthPlans.verifyAllLinks@783a467b]" started-at="2023-06-22T15:33:39 EDT" name="verifyEligibilitySearch" finished-at="2023-06-22T15:34:03 EDT" duration-ms="24572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEligibilitySearch -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@783a467b]" started-at="2023-06-22T15:34:03 EDT" name="checkStatus" finished-at="2023-06-22T15:34:03 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyEligibilitySearch() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyEligibilitySearch status=SUCCESS method=verifyAllLinks.verifyEligibilitySearch()[pri:2, instance:providerPortalVNSHealthPlans.verifyAllLinks@783a467b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@783a467b]" started-at="2023-06-22T15:34:03 EDT" name="close" finished-at="2023-06-22T15:34:04 EDT" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@783a467b]" started-at="2023-06-22T15:34:04 EDT" name="teardown" finished-at="2023-06-22T15:34:04 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 2. Verify Eligibility Search Link -->
+    <test started-at="2023-06-22T15:34:04 EDT" name="3. Verify Enrollment Referrals Link" finished-at="2023-06-22T15:34:51 EDT" duration-ms="47431">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@3f6f6701]" started-at="2023-06-22T15:34:04 EDT" name="setup" finished-at="2023-06-22T15:34:07 EDT" duration-ms="3095" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@64cdc310]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@3f6f6701]" started-at="2023-06-22T15:34:07 EDT" name="logIn" finished-at="2023-06-22T15:34:24 EDT" duration-ms="17094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@3f6f6701]" started-at="2023-06-22T15:34:24 EDT" name="checkStatus" finished-at="2023-06-22T15:34:24 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@3f6f6701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyEnrollmentRef()[pri:3, instance:providerPortalVNSHealthPlans.verifyAllLinks@3f6f6701]" started-at="2023-06-22T15:34:24 EDT" name="verifyEnrollmentRef" finished-at="2023-06-22T15:34:51 EDT" duration-ms="26961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnrollmentRef -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@3f6f6701]" started-at="2023-06-22T15:34:51 EDT" name="checkStatus" finished-at="2023-06-22T15:34:51 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyEnrollmentRef() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyEnrollmentRef status=SUCCESS method=verifyAllLinks.verifyEnrollmentRef()[pri:3, instance:providerPortalVNSHealthPlans.verifyAllLinks@3f6f6701] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@3f6f6701]" started-at="2023-06-22T15:34:51 EDT" name="close" finished-at="2023-06-22T15:34:51 EDT" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@3f6f6701]" started-at="2023-06-22T15:34:51 EDT" name="teardown" finished-at="2023-06-22T15:34:51 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 3. Verify Enrollment Referrals Link -->
+    <test started-at="2023-06-22T15:34:51 EDT" name="4. Verify Claims And Payments Link" finished-at="2023-06-22T15:35:35 EDT" duration-ms="44124">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4f80542f]" started-at="2023-06-22T15:34:51 EDT" name="setup" finished-at="2023-06-22T15:34:54 EDT" duration-ms="2730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d563c13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@4f80542f]" started-at="2023-06-22T15:34:54 EDT" name="logIn" finished-at="2023-06-22T15:35:09 EDT" duration-ms="15043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4f80542f]" started-at="2023-06-22T15:35:09 EDT" name="checkStatus" finished-at="2023-06-22T15:35:09 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@4f80542f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyClaimsAndPayments()[pri:4, instance:providerPortalVNSHealthPlans.verifyAllLinks@4f80542f]" started-at="2023-06-22T15:35:09 EDT" name="verifyClaimsAndPayments" finished-at="2023-06-22T15:35:35 EDT" duration-ms="26126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyClaimsAndPayments -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4f80542f]" started-at="2023-06-22T15:35:35 EDT" name="checkStatus" finished-at="2023-06-22T15:35:35 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyClaimsAndPayments() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyClaimsAndPayments status=SUCCESS method=verifyAllLinks.verifyClaimsAndPayments()[pri:4, instance:providerPortalVNSHealthPlans.verifyAllLinks@4f80542f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4f80542f]" started-at="2023-06-22T15:35:35 EDT" name="close" finished-at="2023-06-22T15:35:35 EDT" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4f80542f]" started-at="2023-06-22T15:35:35 EDT" name="teardown" finished-at="2023-06-22T15:35:35 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 4. Verify Claims And Payments Link -->
+    <test started-at="2023-06-22T15:35:35 EDT" name="5. Verify Authorizations Link" finished-at="2023-06-22T15:36:21 EDT" duration-ms="45863">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e3967ea]" started-at="2023-06-22T15:35:35 EDT" name="setup" finished-at="2023-06-22T15:35:39 EDT" duration-ms="3270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@510a2c7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e3967ea]" started-at="2023-06-22T15:35:39 EDT" name="logIn" finished-at="2023-06-22T15:35:54 EDT" duration-ms="15024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e3967ea]" started-at="2023-06-22T15:35:54 EDT" name="checkStatus" finished-at="2023-06-22T15:35:54 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyAuthorizations()[pri:5, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e3967ea]" started-at="2023-06-22T15:35:54 EDT" name="verifyAuthorizations" finished-at="2023-06-22T15:36:21 EDT" duration-ms="27330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAuthorizations -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e3967ea]" started-at="2023-06-22T15:36:21 EDT" name="checkStatus" finished-at="2023-06-22T15:36:21 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyAuthorizations() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyAuthorizations status=SUCCESS method=verifyAllLinks.verifyAuthorizations()[pri:5, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e3967ea] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e3967ea]" started-at="2023-06-22T15:36:21 EDT" name="close" finished-at="2023-06-22T15:36:21 EDT" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e3967ea]" started-at="2023-06-22T15:36:21 EDT" name="teardown" finished-at="2023-06-22T15:36:21 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 5. Verify Authorizations Link -->
+    <test started-at="2023-06-22T15:36:21 EDT" name="6. Verify Provider Directory Link" finished-at="2023-06-22T15:36:55 EDT" duration-ms="34249">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e6a8155]" started-at="2023-06-22T15:36:21 EDT" name="setup" finished-at="2023-06-22T15:36:24 EDT" duration-ms="3085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@14fe085b]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e6a8155]" started-at="2023-06-22T15:36:24 EDT" name="logIn" finished-at="2023-06-22T15:36:40 EDT" duration-ms="15362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e6a8155]" started-at="2023-06-22T15:36:40 EDT" name="checkStatus" finished-at="2023-06-22T15:36:40 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e6a8155] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyProviderDirectory()[pri:6, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e6a8155]" started-at="2023-06-22T15:36:40 EDT" name="verifyProviderDirectory" finished-at="2023-06-22T15:36:55 EDT" duration-ms="15578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProviderDirectory -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e6a8155]" started-at="2023-06-22T15:36:55 EDT" name="checkStatus" finished-at="2023-06-22T15:36:55 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyProviderDirectory() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyProviderDirectory status=SUCCESS method=verifyAllLinks.verifyProviderDirectory()[pri:6, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e6a8155] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e6a8155]" started-at="2023-06-22T15:36:55 EDT" name="close" finished-at="2023-06-22T15:36:55 EDT" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e6a8155]" started-at="2023-06-22T15:36:55 EDT" name="teardown" finished-at="2023-06-22T15:36:55 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 6. Verify Provider Directory Link -->
+    <test started-at="2023-06-22T15:36:55 EDT" name="7. Verify Formulary Search Link" finished-at="2023-06-22T15:37:32 EDT" duration-ms="36349">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@7b36aa0c]" started-at="2023-06-22T15:36:55 EDT" name="setup" finished-at="2023-06-22T15:36:58 EDT" duration-ms="2977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ea19c97]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@7b36aa0c]" started-at="2023-06-22T15:36:58 EDT" name="logIn" finished-at="2023-06-22T15:37:16 EDT" duration-ms="17562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@7b36aa0c]" started-at="2023-06-22T15:37:16 EDT" name="checkStatus" finished-at="2023-06-22T15:37:16 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@7b36aa0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyFormularySearch()[pri:7, instance:providerPortalVNSHealthPlans.verifyAllLinks@7b36aa0c]" started-at="2023-06-22T15:37:16 EDT" name="verifyFormularySearch" finished-at="2023-06-22T15:37:31 EDT" duration-ms="15532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFormularySearch -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@7b36aa0c]" started-at="2023-06-22T15:37:31 EDT" name="checkStatus" finished-at="2023-06-22T15:37:31 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyFormularySearch() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyFormularySearch status=SUCCESS method=verifyAllLinks.verifyFormularySearch()[pri:7, instance:providerPortalVNSHealthPlans.verifyAllLinks@7b36aa0c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@7b36aa0c]" started-at="2023-06-22T15:37:31 EDT" name="close" finished-at="2023-06-22T15:37:32 EDT" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@7b36aa0c]" started-at="2023-06-22T15:37:32 EDT" name="teardown" finished-at="2023-06-22T15:37:32 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 7. Verify Formulary Search Link -->
+    <test started-at="2023-06-22T15:37:32 EDT" name="8. Verify Provider Toolkit Link" finished-at="2023-06-22T15:38:10 EDT" duration-ms="38609">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4d154ccd]" started-at="2023-06-22T15:37:32 EDT" name="setup" finished-at="2023-06-22T15:37:35 EDT" duration-ms="2882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@525b9df4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@4d154ccd]" started-at="2023-06-22T15:37:35 EDT" name="logIn" finished-at="2023-06-22T15:37:55 EDT" duration-ms="19945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4d154ccd]" started-at="2023-06-22T15:37:55 EDT" name="checkStatus" finished-at="2023-06-22T15:37:55 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@4d154ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyProviderToolkit()[pri:8, instance:providerPortalVNSHealthPlans.verifyAllLinks@4d154ccd]" started-at="2023-06-22T15:37:55 EDT" name="verifyProviderToolkit" finished-at="2023-06-22T15:38:10 EDT" duration-ms="15550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProviderToolkit -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4d154ccd]" started-at="2023-06-22T15:38:10 EDT" name="checkStatus" finished-at="2023-06-22T15:38:10 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyProviderToolkit() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyProviderToolkit status=SUCCESS method=verifyAllLinks.verifyProviderToolkit()[pri:8, instance:providerPortalVNSHealthPlans.verifyAllLinks@4d154ccd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4d154ccd]" started-at="2023-06-22T15:38:10 EDT" name="close" finished-at="2023-06-22T15:38:10 EDT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4d154ccd]" started-at="2023-06-22T15:38:10 EDT" name="teardown" finished-at="2023-06-22T15:38:10 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 8. Verify Provider Toolkit Link -->
+    <test started-at="2023-06-22T15:38:10 EDT" name="9. Verify Appeals Disputes Link" finished-at="2023-06-22T15:38:51 EDT" duration-ms="41056">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4b45a2f5]" started-at="2023-06-22T15:38:10 EDT" name="setup" finished-at="2023-06-22T15:38:14 EDT" duration-ms="3221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@52dd1be2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@4b45a2f5]" started-at="2023-06-22T15:38:14 EDT" name="logIn" finished-at="2023-06-22T15:38:30 EDT" duration-ms="15938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4b45a2f5]" started-at="2023-06-22T15:38:30 EDT" name="checkStatus" finished-at="2023-06-22T15:38:30 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@4b45a2f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyAppealsDisputes()[pri:9, instance:providerPortalVNSHealthPlans.verifyAllLinks@4b45a2f5]" started-at="2023-06-22T15:38:30 EDT" name="verifyAppealsDisputes" finished-at="2023-06-22T15:38:51 EDT" duration-ms="21591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppealsDisputes -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4b45a2f5]" started-at="2023-06-22T15:38:51 EDT" name="close" finished-at="2023-06-22T15:38:51 EDT" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4b45a2f5]" started-at="2023-06-22T15:38:51 EDT" name="checkStatus" finished-at="2023-06-22T15:38:51 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyAppealsDisputes() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyAppealsDisputes status=SUCCESS method=verifyAllLinks.verifyAppealsDisputes()[pri:9, instance:providerPortalVNSHealthPlans.verifyAllLinks@4b45a2f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@4b45a2f5]" started-at="2023-06-22T15:38:51 EDT" name="teardown" finished-at="2023-06-22T15:38:51 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 9. Verify Appeals Disputes Link -->
+    <test started-at="2023-06-22T15:38:51 EDT" name="10. Verify Communication Center Link" finished-at="2023-06-22T15:39:55 EDT" duration-ms="63594">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@45099dd3]" started-at="2023-06-22T15:38:51 EDT" name="setup" finished-at="2023-06-22T15:38:55 EDT" duration-ms="3119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@36857d32]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@45099dd3]" started-at="2023-06-22T15:38:55 EDT" name="logIn" finished-at="2023-06-22T15:39:10 EDT" duration-ms="15628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="verifyCommunicationCenter()[pri:10, instance:providerPortalVNSHealthPlans.verifyAllLinks@45099dd3]" started-at="2023-06-22T15:39:10 EDT" name="verifyCommunicationCenter" finished-at="2023-06-22T15:39:55 EDT" duration-ms="44601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCommunicationCenter -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@45099dd3]" started-at="2023-06-22T15:39:10 EDT" name="checkStatus" finished-at="2023-06-22T15:39:10 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@45099dd3]" started-at="2023-06-22T15:39:55 EDT" name="checkStatus" finished-at="2023-06-22T15:39:55 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyCommunicationCenter() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyCommunicationCenter status=SUCCESS method=verifyAllLinks.verifyCommunicationCenter()[pri:10, instance:providerPortalVNSHealthPlans.verifyAllLinks@45099dd3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@45099dd3]" started-at="2023-06-22T15:39:55 EDT" name="close" finished-at="2023-06-22T15:39:55 EDT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@45099dd3]" started-at="2023-06-22T15:39:55 EDT" name="teardown" finished-at="2023-06-22T15:39:55 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 10. Verify Communication Center Link -->
+    <test started-at="2023-06-22T15:39:55 EDT" name="11. Verify Resources Link" finished-at="2023-06-22T15:40:24 EDT" duration-ms="29013">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@60099951]" started-at="2023-06-22T15:39:55 EDT" name="setup" finished-at="2023-06-22T15:39:58 EDT" duration-ms="3247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24520a51]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@60099951]" started-at="2023-06-22T15:39:58 EDT" name="logIn" finished-at="2023-06-22T15:40:13 EDT" duration-ms="14900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@60099951]" started-at="2023-06-22T15:40:13 EDT" name="checkStatus" finished-at="2023-06-22T15:40:13 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@60099951] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyResources()[pri:11, instance:providerPortalVNSHealthPlans.verifyAllLinks@60099951]" started-at="2023-06-22T15:40:13 EDT" name="verifyResources" finished-at="2023-06-22T15:40:24 EDT" duration-ms="10620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResources -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@60099951]" started-at="2023-06-22T15:40:24 EDT" name="checkStatus" finished-at="2023-06-22T15:40:24 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyResources() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyResources status=SUCCESS method=verifyAllLinks.verifyResources()[pri:11, instance:providerPortalVNSHealthPlans.verifyAllLinks@60099951] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@60099951]" started-at="2023-06-22T15:40:24 EDT" name="close" finished-at="2023-06-22T15:40:24 EDT" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@60099951]" started-at="2023-06-22T15:40:24 EDT" name="teardown" finished-at="2023-06-22T15:40:24 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 11. Verify Resources Link -->
+    <test started-at="2023-06-22T15:40:24 EDT" name="12. Verify My Account Link" finished-at="2023-06-22T15:41:06 EDT" duration-ms="41611">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@55a147cc]" started-at="2023-06-22T15:40:24 EDT" name="setup" finished-at="2023-06-22T15:40:28 EDT" duration-ms="3575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ae88712]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@55a147cc]" started-at="2023-06-22T15:40:28 EDT" name="logIn" finished-at="2023-06-22T15:40:44 EDT" duration-ms="16365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@55a147cc]" started-at="2023-06-22T15:40:44 EDT" name="checkStatus" finished-at="2023-06-22T15:40:44 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@55a147cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyMyAccount()[pri:12, instance:providerPortalVNSHealthPlans.verifyAllLinks@55a147cc]" started-at="2023-06-22T15:40:44 EDT" name="verifyMyAccount" finished-at="2023-06-22T15:41:05 EDT" duration-ms="21410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyAccount -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@55a147cc]" started-at="2023-06-22T15:41:05 EDT" name="checkStatus" finished-at="2023-06-22T15:41:05 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyMyAccount() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyMyAccount status=SUCCESS method=verifyAllLinks.verifyMyAccount()[pri:12, instance:providerPortalVNSHealthPlans.verifyAllLinks@55a147cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@55a147cc]" started-at="2023-06-22T15:41:05 EDT" name="close" finished-at="2023-06-22T15:41:06 EDT" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@55a147cc]" started-at="2023-06-22T15:41:06 EDT" name="teardown" finished-at="2023-06-22T15:41:06 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 12. Verify My Account Link -->
+    <test started-at="2023-06-22T15:41:06 EDT" name="13. Verify Log out Link" finished-at="2023-06-22T15:41:34 EDT" duration-ms="28673">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@d86a6f]" started-at="2023-06-22T15:41:06 EDT" name="setup" finished-at="2023-06-22T15:41:09 EDT" duration-ms="3184" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@10508ba6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@d86a6f]" started-at="2023-06-22T15:41:09 EDT" name="logIn" finished-at="2023-06-22T15:41:24 EDT" duration-ms="14866" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@d86a6f]" started-at="2023-06-22T15:41:24 EDT" name="checkStatus" finished-at="2023-06-22T15:41:24 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@d86a6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyLogOut()[pri:13, instance:providerPortalVNSHealthPlans.verifyAllLinks@d86a6f]" started-at="2023-06-22T15:41:24 EDT" name="verifyLogOut" finished-at="2023-06-22T15:41:34 EDT" duration-ms="10371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogOut -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@d86a6f]" started-at="2023-06-22T15:41:34 EDT" name="checkStatus" finished-at="2023-06-22T15:41:34 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyLogOut() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyLogOut status=SUCCESS method=verifyAllLinks.verifyLogOut()[pri:13, instance:providerPortalVNSHealthPlans.verifyAllLinks@d86a6f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@d86a6f]" started-at="2023-06-22T15:41:34 EDT" name="close" finished-at="2023-06-22T15:41:34 EDT" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@d86a6f]" started-at="2023-06-22T15:41:34 EDT" name="teardown" finished-at="2023-06-22T15:41:34 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 13. Verify Log out Link -->
+    <test started-at="2023-06-22T15:41:34 EDT" name="14. Verify Terms of Use Link" finished-at="2023-06-22T15:42:10 EDT" duration-ms="35864">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e385cce]" started-at="2023-06-22T15:41:34 EDT" name="setup" finished-at="2023-06-22T15:41:37 EDT" duration-ms="3075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@da11873]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e385cce]" started-at="2023-06-22T15:41:37 EDT" name="logIn" finished-at="2023-06-22T15:41:54 EDT" duration-ms="17000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e385cce]" started-at="2023-06-22T15:41:54 EDT" name="checkStatus" finished-at="2023-06-22T15:41:54 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyTermsOfUse()[pri:14, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e385cce]" started-at="2023-06-22T15:41:54 EDT" name="verifyTermsOfUse" finished-at="2023-06-22T15:42:10 EDT" duration-ms="15549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTermsOfUse -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e385cce]" started-at="2023-06-22T15:42:10 EDT" name="close" finished-at="2023-06-22T15:42:10 EDT" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e385cce]" started-at="2023-06-22T15:42:10 EDT" name="checkStatus" finished-at="2023-06-22T15:42:10 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyTermsOfUse() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyTermsOfUse status=SUCCESS method=verifyAllLinks.verifyTermsOfUse()[pri:14, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e385cce] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2e385cce]" started-at="2023-06-22T15:42:10 EDT" name="teardown" finished-at="2023-06-22T15:42:10 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 14. Verify Terms of Use Link -->
+    <test started-at="2023-06-22T15:42:10 EDT" name="15. Verify Privacy Policy Link" finished-at="2023-06-22T15:42:46 EDT" duration-ms="35296">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@740cae06]" started-at="2023-06-22T15:42:10 EDT" name="setup" finished-at="2023-06-22T15:42:13 EDT" duration-ms="3156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@39159b14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@740cae06]" started-at="2023-06-22T15:42:13 EDT" name="logIn" finished-at="2023-06-22T15:42:30 EDT" duration-ms="16301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@740cae06]" started-at="2023-06-22T15:42:30 EDT" name="checkStatus" finished-at="2023-06-22T15:42:30 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@740cae06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyPrivacyPolicy()[pri:15, instance:providerPortalVNSHealthPlans.verifyAllLinks@740cae06]" started-at="2023-06-22T15:42:30 EDT" name="verifyPrivacyPolicy" finished-at="2023-06-22T15:42:45 EDT" duration-ms="15579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrivacyPolicy -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@740cae06]" started-at="2023-06-22T15:42:45 EDT" name="checkStatus" finished-at="2023-06-22T15:42:45 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyPrivacyPolicy() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyPrivacyPolicy status=SUCCESS method=verifyAllLinks.verifyPrivacyPolicy()[pri:15, instance:providerPortalVNSHealthPlans.verifyAllLinks@740cae06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@740cae06]" started-at="2023-06-22T15:42:45 EDT" name="close" finished-at="2023-06-22T15:42:46 EDT" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@740cae06]" started-at="2023-06-22T15:42:46 EDT" name="teardown" finished-at="2023-06-22T15:42:46 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 15. Verify Privacy Policy Link -->
+    <test started-at="2023-06-22T15:42:46 EDT" name="16. Verify Tech Support Link" finished-at="2023-06-22T15:43:45 EDT" duration-ms="59618">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2a265ea9]" started-at="2023-06-22T15:42:46 EDT" name="setup" finished-at="2023-06-22T15:42:49 EDT" duration-ms="3226" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@57ab4b33]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@2a265ea9]" started-at="2023-06-22T15:42:49 EDT" name="logIn" finished-at="2023-06-22T15:43:07 EDT" duration-ms="18578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="verifyTechSupp()[pri:16, instance:providerPortalVNSHealthPlans.verifyAllLinks@2a265ea9]" started-at="2023-06-22T15:43:07 EDT" name="verifyTechSupp" finished-at="2023-06-22T15:43:45 EDT" duration-ms="37566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTechSupp -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2a265ea9]" started-at="2023-06-22T15:43:07 EDT" name="checkStatus" finished-at="2023-06-22T15:43:07 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@2a265ea9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2a265ea9]" started-at="2023-06-22T15:43:45 EDT" name="checkStatus" finished-at="2023-06-22T15:43:45 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyTechSupp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyTechSupp status=SUCCESS method=verifyAllLinks.verifyTechSupp()[pri:16, instance:providerPortalVNSHealthPlans.verifyAllLinks@2a265ea9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2a265ea9]" started-at="2023-06-22T15:43:45 EDT" name="close" finished-at="2023-06-22T15:43:45 EDT" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@2a265ea9]" started-at="2023-06-22T15:43:45 EDT" name="teardown" finished-at="2023-06-22T15:43:45 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 16. Verify Tech Support Link -->
+    <test started-at="2023-06-22T15:43:45 EDT" name="17. Verify Contact Us Link" finished-at="2023-06-22T15:44:16 EDT" duration-ms="31308">
+      <class name="providerPortalVNSHealthPlans.verifyAllLinks">
+        <test-method is-config="true" signature="initialiseExtentReports()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@1530c739]" started-at="2023-06-22T15:32:32 EDT" name="initialiseExtentReports" finished-at="2023-06-22T15:32:33 EDT" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiseExtentReports -->
+        <test-method is-config="true" signature="setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@1530c739]" started-at="2023-06-22T15:43:45 EDT" name="setup" finished-at="2023-06-22T15:43:48 EDT" duration-ms="3341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43b2e7db]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@1530c739]" started-at="2023-06-22T15:43:48 EDT" name="logIn" finished-at="2023-06-22T15:44:04 EDT" duration-ms="15223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@1530c739]" started-at="2023-06-22T15:44:04 EDT" name="checkStatus" finished-at="2023-06-22T15:44:04 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=verifyAllLinks.logIn()[pri:-1, instance:providerPortalVNSHealthPlans.verifyAllLinks@1530c739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method signature="verifyContactUs()[pri:17, instance:providerPortalVNSHealthPlans.verifyAllLinks@1530c739]" started-at="2023-06-22T15:44:04 EDT" name="verifyContactUs" finished-at="2023-06-22T15:44:16 EDT" duration-ms="12505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactUs -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@1530c739]" started-at="2023-06-22T15:44:16 EDT" name="checkStatus" finished-at="2023-06-22T15:44:16 EDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void providerPortalVNSHealthPlans.verifyAllLinks.verifyContactUs() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=verifyContactUs status=SUCCESS method=verifyAllLinks.verifyContactUs()[pri:17, instance:providerPortalVNSHealthPlans.verifyAllLinks@1530c739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="close()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@1530c739]" started-at="2023-06-22T15:44:16 EDT" name="close" finished-at="2023-06-22T15:44:16 EDT" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@1530c739]" started-at="2023-06-22T15:44:16 EDT" name="teardown" finished-at="2023-06-22T15:44:16 EDT" depends-on-methods="providerPortalVNSHealthPlans.verifyAllLinks.close" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="generateExtentReports()[pri:0, instance:providerPortalVNSHealthPlans.verifyAllLinks@1530c739]" started-at="2023-06-22T15:44:16 EDT" name="generateExtentReports" finished-at="2023-06-22T15:44:18 EDT" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReports -->
+      </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
+    </test> <!-- 17. Verify Contact Us Link -->
+  </suite> <!-- Regresstion Suite -->
 </testng-results>

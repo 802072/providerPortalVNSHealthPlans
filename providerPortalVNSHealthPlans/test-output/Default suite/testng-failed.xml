@@ -5,9 +5,13 @@
     <classes>
       <class name="providerPortalVNSHealthPlans.verifyAllLinks">
         <methods>
-          <include name="verifyClaimsAndPayments"/>
+          <include name="setup"/>
+          <include name="teardown"/>
           <include name="close"/>
-          <include name="login"/>
+          <include name="checkStatus"/>
+          <include name="initialiseExtentReports"/>
+          <include name="verifyEligibilitySearch"/>
+          <include name="generateExtentReports"/>
         </methods>
       </class> <!-- providerPortalVNSHealthPlans.verifyAllLinks -->
     </classes>
