@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Regresstion_Suite" class="navigator-link ">
-                    <span class="test-stats">17 tests</span>
+                    <span class="test-stats">16 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">34 methods,   34 passed</span>
+                    <span class="method-stats">32 methods,   32 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,11 +102,6 @@
                       <a href="#" panel-name="suite-Regresstion_Suite" class="show-methods passed suite-Regresstion_Suite"> (show)</a> <!-- show-methods passed suite-Regresstion_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Regresstion_Suite">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regresstion_Suite" title="providerPortalVNSHealthPlans.verifyAllLinks" class="method navigator-link" hash-for-method="logIn">logIn</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Regresstion_Suite" title="providerPortalVNSHealthPlans.verifyAllLinks" class="method navigator-link" hash-for-method="logIn">logIn</a> <!-- method navigator-link -->
@@ -259,11 +254,6 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regresstion_Suite" title="providerPortalVNSHealthPlans.verifyAllLinks" class="method navigator-link" hash-for-method="verifyRosters">verifyRosters</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Regresstion_Suite" title="providerPortalVNSHealthPlans.verifyAllLinks" class="method navigator-link" hash-for-method="verifyTechSupp">verifyTechSupp</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -290,13 +280,6 @@
               <span class="class-name">providerPortalVNSHealthPlans.verifyAllLinks</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="logIn">
-                  </a> <!-- logIn -->
-                  <span class="method-name">logIn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="logIn">
@@ -509,13 +492,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyRosters">
-                  </a> <!-- verifyRosters -->
-                  <span class="method-name">verifyRosters</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="verifyTechSupp">
                   </a> <!-- verifyTechSupp -->
                   <span class="method-name">verifyTechSupp</span>
@@ -540,18 +516,6 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Regresstion Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;1. Verify Rosters Link&quot;&gt;
-    &lt;parameter name=&quot;author&quot; value=&quot;Dayanzi&quot;/&gt;
-    &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;providerPortalVNSHealthPlans.verifyAllLinks&quot;&gt;
-        &lt;methods&gt;
-          &lt;include name=&quot;logIn&quot;/&gt;
-          &lt;include name=&quot;verifyRosters&quot;/&gt;
-        &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- providerPortalVNSHealthPlans.verifyAllLinks --&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- 1. Verify Rosters Link --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;2. Verify Eligibility Search Link&quot;&gt;
     &lt;parameter name=&quot;author&quot; value=&quot;Dayanzi&quot;/&gt;
     &lt;parameter name=&quot;browserName&quot; value=&quot;Chrome&quot;/&gt;
@@ -755,9 +719,6 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">1. Verify Rosters Link (1 class)</span>
-              </li>
-              <li>
                 <span class="test-name">2. Verify Eligibility Search Link (1 class)</span>
               </li>
               <li>
@@ -829,148 +790,140 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(34);
+data.addRows(32);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyCommunicationCenter')
 data.setCell(0, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(0, 3, 44601);
+data.setCell(0, 3, 44910);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifyTechSupp')
 data.setCell(1, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(1, 3, 37566);
+data.setCell(1, 3, 37635);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyAuthorizations')
 data.setCell(2, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(2, 3, 27330);
+data.setCell(2, 3, 27195);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyRosters')
+data.setCell(3, 1, 'verifyEnrollmentRef')
 data.setCell(3, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(3, 3, 26970);
+data.setCell(3, 3, 27168);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'verifyEnrollmentRef')
+data.setCell(4, 1, 'verifyEligibilitySearch')
 data.setCell(4, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(4, 3, 26961);
+data.setCell(4, 3, 24687);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'verifyClaimsAndPayments')
 data.setCell(5, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(5, 3, 26126);
+data.setCell(5, 3, 22159);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'verifyEligibilitySearch')
+data.setCell(6, 1, 'verifyAppealsDisputes')
 data.setCell(6, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(6, 3, 24572);
+data.setCell(6, 3, 21523);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'verifyAppealsDisputes')
+data.setCell(7, 1, 'verifyMyAccount')
 data.setCell(7, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(7, 3, 21591);
+data.setCell(7, 3, 21392);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'verifyMyAccount')
+data.setCell(8, 1, 'logIn')
 data.setCell(8, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(8, 3, 21410);
+data.setCell(8, 3, 18191);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'logIn')
 data.setCell(9, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(9, 3, 19945);
+data.setCell(9, 3, 17784);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'logIn')
 data.setCell(10, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(10, 3, 18578);
+data.setCell(10, 3, 17748);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'logIn')
 data.setCell(11, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(11, 3, 17562);
+data.setCell(11, 3, 16990);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'logIn')
 data.setCell(12, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(12, 3, 17094);
+data.setCell(12, 3, 16936);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'logIn')
 data.setCell(13, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(13, 3, 17000);
+data.setCell(13, 3, 15743);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'logIn')
+data.setCell(14, 1, 'verifyProviderDirectory')
 data.setCell(14, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(14, 3, 16444);
+data.setCell(14, 3, 15734);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'logIn')
+data.setCell(15, 1, 'verifyFormularySearch')
 data.setCell(15, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(15, 3, 16365);
+data.setCell(15, 3, 15713);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'logIn')
+data.setCell(16, 1, 'verifyProviderToolkit')
 data.setCell(16, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(16, 3, 16301);
+data.setCell(16, 3, 15556);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'logIn')
+data.setCell(17, 1, 'verifyPrivacyPolicy')
 data.setCell(17, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(17, 3, 15938);
+data.setCell(17, 3, 15487);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'logIn')
+data.setCell(18, 1, 'verifyTermsOfUse')
 data.setCell(18, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(18, 3, 15628);
+data.setCell(18, 3, 15470);
 data.setCell(19, 0, 19)
-data.setCell(19, 1, 'verifyPrivacyPolicy')
+data.setCell(19, 1, 'logIn')
 data.setCell(19, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(19, 3, 15579);
+data.setCell(19, 3, 15373);
 data.setCell(20, 0, 20)
-data.setCell(20, 1, 'verifyProviderDirectory')
+data.setCell(20, 1, 'logIn')
 data.setCell(20, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(20, 3, 15578);
+data.setCell(20, 3, 15223);
 data.setCell(21, 0, 21)
-data.setCell(21, 1, 'verifyProviderToolkit')
+data.setCell(21, 1, 'logIn')
 data.setCell(21, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(21, 3, 15550);
+data.setCell(21, 3, 15156);
 data.setCell(22, 0, 22)
-data.setCell(22, 1, 'verifyTermsOfUse')
+data.setCell(22, 1, 'logIn')
 data.setCell(22, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(22, 3, 15549);
+data.setCell(22, 3, 15147);
 data.setCell(23, 0, 23)
-data.setCell(23, 1, 'verifyFormularySearch')
+data.setCell(23, 1, 'logIn')
 data.setCell(23, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(23, 3, 15532);
+data.setCell(23, 3, 15035);
 data.setCell(24, 0, 24)
 data.setCell(24, 1, 'logIn')
 data.setCell(24, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(24, 3, 15362);
+data.setCell(24, 3, 14934);
 data.setCell(25, 0, 25)
 data.setCell(25, 1, 'logIn')
 data.setCell(25, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(25, 3, 15223);
+data.setCell(25, 3, 14867);
 data.setCell(26, 0, 26)
 data.setCell(26, 1, 'logIn')
 data.setCell(26, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(26, 3, 15053);
+data.setCell(26, 3, 14794);
 data.setCell(27, 0, 27)
 data.setCell(27, 1, 'logIn')
 data.setCell(27, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(27, 3, 15043);
+data.setCell(27, 3, 14758);
 data.setCell(28, 0, 28)
 data.setCell(28, 1, 'logIn')
 data.setCell(28, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(28, 3, 15024);
+data.setCell(28, 3, 14663);
 data.setCell(29, 0, 29)
-data.setCell(29, 1, 'logIn')
+data.setCell(29, 1, 'verifyContactUs')
 data.setCell(29, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(29, 3, 14900);
+data.setCell(29, 3, 12460);
 data.setCell(30, 0, 30)
-data.setCell(30, 1, 'logIn')
+data.setCell(30, 1, 'verifyResources')
 data.setCell(30, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(30, 3, 14866);
+data.setCell(30, 3, 10587);
 data.setCell(31, 0, 31)
-data.setCell(31, 1, 'verifyContactUs')
+data.setCell(31, 1, 'verifyLogOut')
 data.setCell(31, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(31, 3, 12505);
-data.setCell(32, 0, 32)
-data.setCell(32, 1, 'verifyResources')
-data.setCell(32, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(32, 3, 10620);
-data.setCell(33, 0, 33)
-data.setCell(33, 1, 'verifyLogOut')
-data.setCell(33, 2, 'providerPortalVNSHealthPlans.verifyAllLinks')
-data.setCell(33, 3, 10371);
+data.setCell(31, 3, 10390);
 window.suiteTableData['Regresstion_Suite']= { tableData: data, tableDiv: 'times-div-Regresstion_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
               <div id="times-div-Regresstion_Suite">
               </div> <!-- times-div-Regresstion_Suite -->
             </div> <!-- times-div -->
@@ -985,7 +938,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Regresstion_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">272 ignored methods</span>
+            <span class="header-content">256 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -1021,8 +974,6 @@ return data;
                 <br/>
                 <span class="ignored-method-name">verifyClaimsAndPayments</span>
                 <br/>
-                <span class="ignored-method-name">verifyClaimsAndPayments</span>
-                <br/>
                 <span class="ignored-method-name">verifyRosters</span>
                 <br/>
                 <span class="ignored-method-name">verifyRosters</span>
@@ -1085,8 +1036,6 @@ return data;
                 <br/>
                 <span class="ignored-method-name">verifyAppealsDisputes</span>
                 <br/>
-                <span class="ignored-method-name">verifyAppealsDisputes</span>
-                <br/>
                 <span class="ignored-method-name">verifyEligibilitySearch</span>
                 <br/>
                 <span class="ignored-method-name">verifyEligibilitySearch</span>
@@ -1116,10 +1065,6 @@ return data;
                 <span class="ignored-method-name">verifyEligibilitySearch</span>
                 <br/>
                 <span class="ignored-method-name">verifyEligibilitySearch</span>
-                <br/>
-                <span class="ignored-method-name">verifyEligibilitySearch</span>
-                <br/>
-                <span class="ignored-method-name">verifyResources</span>
                 <br/>
                 <span class="ignored-method-name">verifyResources</span>
                 <br/>
@@ -1181,8 +1126,6 @@ return data;
                 <br/>
                 <span class="ignored-method-name">verifyProviderToolkit</span>
                 <br/>
-                <span class="ignored-method-name">verifyProviderToolkit</span>
-                <br/>
                 <span class="ignored-method-name">verifyCommunicationCenter</span>
                 <br/>
                 <span class="ignored-method-name">verifyCommunicationCenter</span>
@@ -1212,10 +1155,6 @@ return data;
                 <span class="ignored-method-name">verifyCommunicationCenter</span>
                 <br/>
                 <span class="ignored-method-name">verifyCommunicationCenter</span>
-                <br/>
-                <span class="ignored-method-name">verifyCommunicationCenter</span>
-                <br/>
-                <span class="ignored-method-name">verifyTechSupp</span>
                 <br/>
                 <span class="ignored-method-name">verifyTechSupp</span>
                 <br/>
@@ -1277,8 +1216,6 @@ return data;
                 <br/>
                 <span class="ignored-method-name">verifyEnrollmentRef</span>
                 <br/>
-                <span class="ignored-method-name">verifyEnrollmentRef</span>
-                <br/>
                 <span class="ignored-method-name">verifyProviderDirectory</span>
                 <br/>
                 <span class="ignored-method-name">verifyProviderDirectory</span>
@@ -1308,10 +1245,6 @@ return data;
                 <span class="ignored-method-name">verifyProviderDirectory</span>
                 <br/>
                 <span class="ignored-method-name">verifyProviderDirectory</span>
-                <br/>
-                <span class="ignored-method-name">verifyProviderDirectory</span>
-                <br/>
-                <span class="ignored-method-name">verifyAuthorizations</span>
                 <br/>
                 <span class="ignored-method-name">verifyAuthorizations</span>
                 <br/>
@@ -1373,8 +1306,6 @@ return data;
                 <br/>
                 <span class="ignored-method-name">verifyLogOut</span>
                 <br/>
-                <span class="ignored-method-name">verifyLogOut</span>
-                <br/>
                 <span class="ignored-method-name">verifyContactUs</span>
                 <br/>
                 <span class="ignored-method-name">verifyContactUs</span>
@@ -1404,10 +1335,6 @@ return data;
                 <span class="ignored-method-name">verifyContactUs</span>
                 <br/>
                 <span class="ignored-method-name">verifyContactUs</span>
-                <br/>
-                <span class="ignored-method-name">verifyContactUs</span>
-                <br/>
-                <span class="ignored-method-name">verifyFormularySearch</span>
                 <br/>
                 <span class="ignored-method-name">verifyFormularySearch</span>
                 <br/>
@@ -1469,8 +1396,6 @@ return data;
                 <br/>
                 <span class="ignored-method-name">verifyPrivacyPolicy</span>
                 <br/>
-                <span class="ignored-method-name">verifyPrivacyPolicy</span>
-                <br/>
                 <span class="ignored-method-name">verifyMyAccount</span>
                 <br/>
                 <span class="ignored-method-name">verifyMyAccount</span>
@@ -1500,10 +1425,6 @@ return data;
                 <span class="ignored-method-name">verifyMyAccount</span>
                 <br/>
                 <span class="ignored-method-name">verifyMyAccount</span>
-                <br/>
-                <span class="ignored-method-name">verifyMyAccount</span>
-                <br/>
-                <span class="ignored-method-name">verifyTermsOfUse</span>
                 <br/>
                 <span class="ignored-method-name">verifyTermsOfUse</span>
                 <br/>
@@ -1551,484 +1472,456 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@1b06dc57, Chrome)</span>
-                <span class="method-start">550 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@5df54296, Chrome)</span>
+                <span class="method-start">497 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">4467 ms</span>
+                <span class="method-start">6427 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">20915 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">verifyRosters</span>
-                <span class="method-start">20919 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyRosters() throws java.lang.Interrupted...)</span>
-                <span class="method-start">47891 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">close</span>
-                <span class="method-start">47893 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">48205 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@31940d6b, Chrome)</span>
-                <span class="method-start">48230 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">logIn</span>
-                <span class="method-start">51273 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">66327 ms</span>
+                <span class="method-start">24623 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyEligibilitySearch</span>
-                <span class="method-start">66328 ms</span>
+                <span class="method-start">24626 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyEligibilitySearch() throws java.lang.I...)</span>
-                <span class="method-start">90901 ms</span>
+                <span class="method-start">49315 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">90902 ms</span>
+                <span class="method-start">49316 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">91200 ms</span>
+                <span class="method-start">49562 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@64cdc310, Chrome)</span>
-                <span class="method-start">91212 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@4cddc036, Chrome)</span>
+                <span class="method-start">49592 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">94308 ms</span>
+                <span class="method-start">52319 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">111403 ms</span>
+                <span class="method-start">70068 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyEnrollmentRef</span>
-                <span class="method-start">111404 ms</span>
+                <span class="method-start">70069 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyEnrollmentRef() throws java.lang.Inter...)</span>
-                <span class="method-start">138366 ms</span>
+                <span class="method-start">97238 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">138367 ms</span>
+                <span class="method-start">97239 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">138643 ms</span>
+                <span class="method-start">97483 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@7d563c13, Chrome)</span>
-                <span class="method-start">138651 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@23d12a3a, Chrome)</span>
+                <span class="method-start">97498 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">141382 ms</span>
+                <span class="method-start">100397 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">156426 ms</span>
+                <span class="method-start">117334 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyClaimsAndPayments</span>
-                <span class="method-start">156426 ms</span>
+                <span class="method-start">117335 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyClaimsAndPayments() throws java.lang.I...)</span>
-                <span class="method-start">182553 ms</span>
+                <span class="method-start">139494 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">182554 ms</span>
+                <span class="method-start">139498 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">182773 ms</span>
+                <span class="method-start">139778 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@510a2c7, Chrome)</span>
-                <span class="method-start">182781 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@70df41f9, Chrome)</span>
+                <span class="method-start">139788 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">186051 ms</span>
+                <span class="method-start">142432 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">201079 ms</span>
+                <span class="method-start">157367 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyAuthorizations</span>
-                <span class="method-start">201080 ms</span>
+                <span class="method-start">157368 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyAuthorizations() throws java.lang.Inte...)</span>
-                <span class="method-start">228412 ms</span>
+                <span class="method-start">184565 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">228412 ms</span>
+                <span class="method-start">184566 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">228643 ms</span>
+                <span class="method-start">184823 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@14fe085b, Chrome)</span>
-                <span class="method-start">228650 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@64a7ad02, Chrome)</span>
+                <span class="method-start">184838 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">231736 ms</span>
+                <span class="method-start">187687 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">247099 ms</span>
+                <span class="method-start">202723 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyProviderDirectory</span>
-                <span class="method-start">247100 ms</span>
+                <span class="method-start">202725 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyProviderDirectory() throws java.lang.I...)</span>
-                <span class="method-start">262679 ms</span>
+                <span class="method-start">218460 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">262679 ms</span>
+                <span class="method-start">218460 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">262899 ms</span>
+                <span class="method-start">218680 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@1ea19c97, Chrome)</span>
-                <span class="method-start">262907 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@46590dd0, Chrome)</span>
+                <span class="method-start">218688 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">265885 ms</span>
+                <span class="method-start">221680 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">283449 ms</span>
-              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyFormularySearch</span>
-                <span class="method-start">283451 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyFormularySearch() throws java.lang.Int...)</span>
-                <span class="method-start">298984 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">close</span>
-                <span class="method-start">298985 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">299255 ms</span>
-              </div> <!-- configuration-test after -->
-              <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@525b9df4, Chrome)</span>
-                <span class="method-start">299263 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">logIn</span>
-                <span class="method-start">302146 ms</span>
+                <span class="method-start">236439 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">322092 ms</span>
+                <span class="method-start">236439 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyFormularySearch() throws java.lang.Int...)</span>
+                <span class="method-start">252153 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">252153 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">252398 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test before">
+                <span class="method-name">setup(org.testng.TestRunner@6c737fdb, Chrome)</span>
+                <span class="method-start">252405 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">logIn</span>
+                <span class="method-start">255427 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
+                <span class="method-start">270803 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyProviderToolkit</span>
-                <span class="method-start">322093 ms</span>
+                <span class="method-start">270805 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyProviderToolkit() throws java.lang.Int...)</span>
-                <span class="method-start">337644 ms</span>
+                <span class="method-start">286363 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">337645 ms</span>
+                <span class="method-start">286364 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">337872 ms</span>
+                <span class="method-start">286609 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@52dd1be2, Chrome)</span>
-                <span class="method-start">337880 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@66a93b25, Chrome)</span>
+                <span class="method-start">286616 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">341101 ms</span>
+                <span class="method-start">289336 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">357040 ms</span>
+                <span class="method-start">304204 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyAppealsDisputes</span>
-                <span class="method-start">357041 ms</span>
+                <span class="method-start">304205 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">close</span>
-                <span class="method-start">378633 ms</span>
-              </div> <!-- configuration-test after -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyAppealsDisputes() throws java.lang.Int...)</span>
-                <span class="method-start">378633 ms</span>
+                <span class="method-start">325729 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
+                <span class="method-name">close</span>
+                <span class="method-start">325730 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">378935 ms</span>
+                <span class="method-start">325970 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@36857d32, Chrome)</span>
-                <span class="method-start">378944 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@3f3f554f, Chrome)</span>
+                <span class="method-start">325981 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">382064 ms</span>
+                <span class="method-start">328929 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">397693 ms</span>
+                <span class="method-start">344675 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyCommunicationCenter</span>
-                <span class="method-start">397693 ms</span>
+                <span class="method-start">344676 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyCommunicationCenter() throws java.lang...)</span>
-                <span class="method-start">442295 ms</span>
+                <span class="method-start">389587 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">442296 ms</span>
+                <span class="method-start">389588 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">442538 ms</span>
+                <span class="method-start">389810 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@24520a51, Chrome)</span>
-                <span class="method-start">442550 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@3186f8f5, Chrome)</span>
+                <span class="method-start">389817 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">445798 ms</span>
+                <span class="method-start">392542 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">460699 ms</span>
+                <span class="method-start">407690 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyResources</span>
-                <span class="method-start">460700 ms</span>
+                <span class="method-start">407692 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyResources() throws java.lang.Interrupt...)</span>
-                <span class="method-start">471321 ms</span>
+                <span class="method-start">418280 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">471322 ms</span>
+                <span class="method-start">418281 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">471561 ms</span>
+                <span class="method-start">418524 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@2ae88712, Chrome)</span>
-                <span class="method-start">471575 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@467cd4b9, Chrome)</span>
+                <span class="method-start">418534 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">475151 ms</span>
+                <span class="method-start">421333 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">491517 ms</span>
+                <span class="method-start">436490 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyMyAccount</span>
-                <span class="method-start">491518 ms</span>
+                <span class="method-start">436491 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyMyAccount() throws java.lang.Interrupt...)</span>
-                <span class="method-start">512928 ms</span>
+                <span class="method-start">457884 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">512928 ms</span>
+                <span class="method-start">457885 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">513185 ms</span>
+                <span class="method-start">458150 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@10508ba6, Chrome)</span>
-                <span class="method-start">513195 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@69a3bf40, Chrome)</span>
+                <span class="method-start">458164 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">516379 ms</span>
+                <span class="method-start">461139 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">531247 ms</span>
+                <span class="method-start">478925 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyLogOut</span>
-                <span class="method-start">531248 ms</span>
+                <span class="method-start">478926 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyLogOut() throws java.lang.InterruptedE...)</span>
-                <span class="method-start">541620 ms</span>
+                <span class="method-start">489317 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">541621 ms</span>
+                <span class="method-start">489318 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">541867 ms</span>
+                <span class="method-start">489552 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@da11873, Chrome)</span>
-                <span class="method-start">541875 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@2c731a16, Chrome)</span>
+                <span class="method-start">489561 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">544950 ms</span>
+                <span class="method-start">492374 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyTermsOfUse</span>
+                <span class="method-start">507598 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">561951 ms</span>
+                <span class="method-start">507598 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">verifyTermsOfUse</span>
-                <span class="method-start">561952 ms</span>
-              </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">577502 ms</span>
+                <span class="method-start">523069 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyTermsOfUse() throws java.lang.Interrup...)</span>
-                <span class="method-start">577502 ms</span>
+                <span class="method-start">523069 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">577738 ms</span>
+                <span class="method-start">523300 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@39159b14, Chrome)</span>
-                <span class="method-start">577748 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@2a341e3d, Chrome)</span>
+                <span class="method-start">523310 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">580904 ms</span>
+                <span class="method-start">526093 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">597206 ms</span>
+                <span class="method-start">540756 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyPrivacyPolicy</span>
-                <span class="method-start">597207 ms</span>
+                <span class="method-start">540757 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyPrivacyPolicy() throws java.lang.Inter...)</span>
-                <span class="method-start">612787 ms</span>
+                <span class="method-start">556245 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">612788 ms</span>
+                <span class="method-start">556245 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">613043 ms</span>
+                <span class="method-start">556495 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@57ab4b33, Chrome)</span>
-                <span class="method-start">613054 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@a4dcede, Chrome)</span>
+                <span class="method-start">556502 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">616281 ms</span>
+                <span class="method-start">559391 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
+                <span class="method-start">576382 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">verifyTechSupp</span>
-                <span class="method-start">634860 ms</span>
+                <span class="method-start">576383 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">634860 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyTechSupp() throws java.lang.Interrupte...)</span>
-                <span class="method-start">672427 ms</span>
+                <span class="method-start">614019 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">672428 ms</span>
+                <span class="method-start">614020 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">672671 ms</span>
+                <span class="method-start">614257 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">setup(org.testng.TestRunner@43b2e7db, Chrome)</span>
-                <span class="method-start">672682 ms</span>
+                <span class="method-name">setup(org.testng.TestRunner@7ee02968, Chrome)</span>
+                <span class="method-start">614270 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">logIn</span>
-                <span class="method-start">676024 ms</span>
+                <span class="method-start">617290 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyContactUs</span>
+                <span class="method-start">632085 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.logIn() throws java.lang.InterruptedExceptio...)</span>
-                <span class="method-start">691248 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">verifyContactUs</span>
-                <span class="method-start">691249 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyContactUs() throws java.lang.Interrupt...)</span>
-                <span class="method-start">703755 ms</span>
+                <span class="method-start">632085 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">close</span>
-                <span class="method-start">703755 ms</span>
+                <span class="method-start">644546 ms</span>
               </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">checkStatus(public void providerPortalVNSHealthPlans.verifyAllLinks.verifyContactUs() throws java.lang.Interrupt...)</span>
+                <span class="method-start">644546 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">703988 ms</span>
+                <span class="method-start">644769 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">generateExtentReports</span>
-                <span class="method-start">703998 ms</span>
+                <span class="method-start">644779 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

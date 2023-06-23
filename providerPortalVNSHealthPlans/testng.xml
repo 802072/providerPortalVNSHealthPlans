@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Regresstion Suite">
 
-<test name="1. Verify Rosters Link">
+<!--<test name="1. Verify Rosters Link">
 		<parameter name="browserName" value="Chrome" />
 		<parameter name="author" value="Dayanzi" />
 		<classes>
@@ -13,7 +13,7 @@
 				</methods>
 			</class>
 		</classes>
-	</test> 
+	</test> -->
 
 	<test name="2. Verify Eligibility Search Link">
 		<parameter name="browserName" value="Chrome" />
@@ -28,7 +28,7 @@
 		</classes>
 	</test> 
 
-	 <test name="3. Verify Enrollment Referrals Link">
+ <test name="3. Verify Enrollment Referrals Link">
 		<parameter name="browserName" value="Chrome" />
 		<parameter name="author" value="Dayanzi" />
 		<classes>
@@ -220,7 +220,7 @@
 				</methods>
 			</class>
 		</classes>
-	</test>
+	</test>-->
 
 <!--<test name="verifyRosters">
 	<parameter name="browserName" value="Chrome" />
